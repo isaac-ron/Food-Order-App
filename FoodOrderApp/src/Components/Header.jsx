@@ -1,5 +1,6 @@
 import React from "react";
-import horizontallogo from "../assets/horizontal-logo.png"
+import horizontallogo from "../assets/logos/horizontal-logo.png"
+import './Header.css';
 
 export default function Header() {
     return (

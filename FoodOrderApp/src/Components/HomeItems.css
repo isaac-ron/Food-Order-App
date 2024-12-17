@@ -1,0 +1,98 @@
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.card1, .card2, .card3{
+  display: flex;
+  background-color: #f9d2d2;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  transition: transform 0.5s ease;
+}
+.card1:hover, .card2:hover, .card3:hover {
+  transform: translateY(-10px); 
+}
+.card1-contents, .card2-contents, .card3-contents{
+  display: flex;
+  column-gap: 16px;
+  row-gap: 16px;
+  width: 216px;
+  align-items: center;
+  padding: 30px 20px;
+}
+.meal-image, .pill-image, .drinks-image{
+  height: 64px;
+  display: inline;
+}
+.h6{
+  font-size: 16px;
+  margin: 8px;
+  font-weight: 500;
+}
+section{
+  box-sizing: border-box;
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.aboutservices{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%
+}
+.center-banner{
+  width: 960px;
+  flex-basis: auto;
+  padding: 0 12px;
+  text-align: center;
+}
+.center-feature-title{
+  font-size: 20px;
+  color:#c50404;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.customer-need-variable{
+  color:#c50404;
+}
+.door-delivery-icon, .support-icon, .fast-delivery-icon{
+  width: 50px;
+  filter: invert(19%) sepia(97%) saturate(2995%) hue-rotate(352deg) brightness(84%) contrast(90%);
+  margin-bottom: 16px;
+  margin-left: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.feature1{
+  width:320px;
+  box-sizing: border-box;
+  padding: 16px 48px;
+
+}
+.feature2{
+  width: 320px;
+  box-sizing: border-box;
+  padding: 16px 48px;
+}
+.feature3{
+  width: 320px;
+  box-sizing: border-box;
+  padding: 16px 48px;
+}
+p{
+  color: #777;
+}

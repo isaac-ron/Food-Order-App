@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 2rem;
     background-color: #fff;
+    padding-bottom: 60px;
   }
   
   .hero-content {
@@ -21,7 +22,7 @@
   }
   
   .hero-content h1 span {
-    color: red;
+    color: #C50404;
   }
   
   .hero-content p {
@@ -42,15 +43,15 @@
   }
   
   .btn-primary {
-    background-color: red;
+    background-color: #C50404;
     color: #fff;
     margin-right: 1rem;
   }
   
   .btn-secondary {
     background-color: #fff;
-    color: red;
-    border: 1px solid red;
+    color: #C50404;
+    border: 1px solid #C50404;
   }
   
   .hero-icons {

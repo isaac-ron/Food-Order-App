@@ -1,0 +1,26 @@
+footer{
+    padding: 60px 0 30px;
+    background-color: #f9d2d2;
+}
+.info-row{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+}
+.wordmark-logo{
+    width: 80px;
+}
+.about-us, .contact, .socials, .quick-links{
+    text-align: left;
+    max-width: 240px;
+    padding: 0 12px;
+}
+i{
+    display: block;
+    padding-bottom: 8px;
+}
+.attribution-row{
+    text-align: center;
+}
