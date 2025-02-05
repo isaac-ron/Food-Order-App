@@ -8,7 +8,9 @@ export default function Header() {
         <div>
             <nav className="navbar navbar-expand-lg d-flex navbar-light">
                 <div className="container">
-                    <a class="navbar-brand" href="#">
+                    {/*Change all anchor tags to NavLink; style them appropriately. Change all href attributes to the 'to' prop*/}
+                
+                    <a className="navbar-brand" href="#">
                             <img src={horizontallogo} width={80} height={80} className="d-inline-block align-top" />
                        
                     </a>
@@ -23,7 +25,7 @@ export default function Header() {
                      >
                         <span className="navbar-toggler-icon"></span> 
                     </button>
-                    <div className="collapse d-flex justify-content-between navbar-collapse" id="toggleMobileMenu">
+                    <div className="collapse d-flex justify-space-between navbar-collapse" id="toggleMobileMenu">
                         <ul className="navbar-nav mx-auto align-items-center text-center">
                             <li>
                                 <a className="nav-link" href="#">Home</a>
@@ -32,10 +34,13 @@ export default function Header() {
                                 <a className="nav-link" href="#">Food</a>
                             </li>
                             <li>
-                                <a className="nav-link" href="#">Cart</a>
+                                <a className="nav-link" href="#">Medicine</a>
                             </li>
                             <li>
-                                <a className="nav-link" href="#">Contact</a>
+                                <a className="nav-link" href="#">Drinks</a>
+                            </li>
+                            <li>
+                                <a className="nav-link" href="#">Offers</a>
                             </li>
                         </ul>
                         <ul className="navbar-nav ms-auto">

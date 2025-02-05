@@ -4,7 +4,7 @@ footer{
 }
 .info-row{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     box-sizing: border-box;
     justify-content: space-between;
     width: 100%;

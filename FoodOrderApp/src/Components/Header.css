@@ -1,4 +1,5 @@
 .nav-link:hover{
     cursor: pointer;
     color: #C50404;
+    transition: ease 1s;
 }
