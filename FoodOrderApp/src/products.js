@@ -21,7 +21,7 @@ export const products = [
         category: "Food",
         price: 10.99,
         description: "Creamy Alfredo pasta with grilled chicken.",
-        imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8PZDPlWVoOHbH7BlUag7Ye9m4dPcY-dUxHw&s"
+        imageUrl: "https://media.istockphoto.com/id/1325172440/photo/spaghetti-alla-puttanesca-italian-pasta-dish-with-tomatoes-black-olives-capers-anchovies-and.jpg?s=612x612&w=0&k=20&c=ieMxGg7flhSltOMDpuLZINAWYT2W2WDjJTlwoUWuwH4="
     },
     {
         id: 4,
@@ -29,7 +29,7 @@ export const products = [
         category: "Food",
         price: 7.99,
         description: "Fresh garden salad with a variety of vegetables.",
-        imageUrl: "https://example.com/images/salad.jpg"
+        imageUrl: "https://media.istockphoto.com/id/1987501470/photo/green-salad-with-salad-leaves-and-vegetables-at-black-background.jpg?s=612x612&w=0&k=20&c=sgXBvKMIA5p2RgFM3vkfukL1INMg8JssTp7Eb36W1R0="
     },
     {
         id: 5,
@@ -37,7 +37,7 @@ export const products = [
         category: "Food",
         price: 15.99,
         description: "Assorted sushi platter with fresh fish.",
-        imageUrl: "https://example.com/images/sushi.jpg"
+        imageUrl: "https://static.vecteezy.com/system/resources/previews/010/722/368/large_2x/sushi-rolls-on-black-background-japanese-food-free-photo.jpg"
     },
     {
         id: 6,
@@ -45,7 +45,7 @@ export const products = [
         category: "Food",
         price: 20.99,
         description: "Grilled steak cooked to perfection.",
-        imageUrl: "https://example.com/images/steak.jpg"
+        imageUrl: "https://www.petergbouchier.com.au/cdn/shop/articles/Steak_and_rocket_on_plate.jpg?v=1724724050"
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ export const products = [
         category: "Food",
         price: 9.99,
         description: "Spicy beef tacos with fresh salsa.",
-        imageUrl: "https://example.com/images/tacos.jpg"
+        imageUrl: "https://danosseasoning.com/wp-content/uploads/2022/03/Beef-Tacos-1024x767.jpg"
     },
     {
         id: 8,
@@ -61,7 +61,7 @@ export const products = [
         category: "Food",
         price: 6.99,
         description: "Classic ham and cheese sandwich.",
-        imageUrl: "https://example.com/images/sandwich.jpg"
+        imageUrl: "https://thumbs.dreamstime.com/b/sandwich-cheese-peppers-top-black-plate-sandwich-cheese-peppers-top-black-plate-sandwich-386865015.jpg"
     },
     {
         id: 9,
@@ -69,7 +69,7 @@ export const products = [
         category: "Food",
         price: 5.99,
         description: "Warm and comforting chicken noodle soup.",
-        imageUrl: "https://example.com/images/soup.jpg"
+        imageUrl: "https://www.cubesnjuliennes.com/wp-content/uploads/2022/01/Homemade-Chicken-Noodle-Soup-Recipe.jpg"
     },
     {
         id: 10,
@@ -77,7 +77,7 @@ export const products = [
         category: "Food",
         price: 4.99,
         description: "Creamy vanilla ice cream with chocolate sauce.",
-        imageUrl: "https://example.com/images/icecream.jpg"
+        imageUrl: "https://www.wickedlywelsh.co.uk/cdn/shop/articles/choc_ice_1024x1024.webp?v=1727443743"
     },
     {
         id: 11,

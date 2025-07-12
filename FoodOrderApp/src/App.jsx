@@ -7,8 +7,22 @@ import Footer from "./Components/Footer";
 import Foods from "./Components/Foods";
 
 //Setting up routing for product pages views using createBrowserRouter.
+const Base = ({children}) => {
+    return (
+        <>
+        <Header/>
+        <Hero/>
+      {children}
+        <Footer/>
+        </>
+    )
+}
+
 const router = createBrowserRouter(createRoutesFromElements(
-    <Route path='/foods' element = {<Foods/>}/>
+    <>
+    <Route path='/' element = {<Base><Foods/></Base>}/>
+    </>
+    
 ));
 
 export default function App(){
